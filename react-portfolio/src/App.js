@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import {BrowserRouter as Router, Route} from "react-router-dom";
+import {BrowserRouter as Router} from "react-router-dom";
 // Make routes
 import './App.css';
 import Header from "./components/Header";
@@ -11,12 +11,10 @@ function App() {
   return (
     <Router>
       <div>
-        <Header>
-          <Project>
-            <Footer>
-            </Footer>
-          </Project>
-        </Header>
+        <Navbar />
+        <Header />
+          <Project/>
+            <Footer/>
       </div>
     </Router>
   );
