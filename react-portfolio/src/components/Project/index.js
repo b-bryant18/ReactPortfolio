@@ -1,4 +1,5 @@
 import React from "react";
+import Planner from ".../images/dayPlanner.png";
 
 function Project () {
     return (

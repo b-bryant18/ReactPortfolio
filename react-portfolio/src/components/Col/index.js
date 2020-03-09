@@ -1,9 +1,13 @@
 import React from "react";
 
-function Col (props) {
-    const size = props.size.split(" ").map(size => "col-" + size).join(" ");
-
-    return <div className ={size} {...props} />
+function Col() {
+  var queries = [{
+    columns: 2,
+    query: 'min-width: 500px'
+  }, {
+    columns: 3,
+    query: 'min-width: 1000px'
+  }];
 }
-
-export default Col;
+  
+  export default Col;
