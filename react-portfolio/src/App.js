@@ -7,6 +7,7 @@ import Wrapper from "./components/Wrapper";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Repos from "./pages/Repos";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,7 +22,9 @@ function App() {
           <Route exact path="/repos" component={Repos} />
         </Wrapper>
       </div>
+      <Footer />
     </Router>
+  
   );
 }
 

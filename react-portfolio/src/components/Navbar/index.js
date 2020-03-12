@@ -29,6 +29,7 @@ function Navbar() {
                         >
                             Contact
                         </Link>
+                        </li>
                         <li className="nav-item">
                             <Link
                                 to="/repos"
@@ -37,8 +38,6 @@ function Navbar() {
                                 Repos
                             </Link>
                         </li>
-
-                    </li>
                 </ul>
             </div>
         </nav>

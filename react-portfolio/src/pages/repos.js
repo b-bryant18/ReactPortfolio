@@ -6,7 +6,6 @@ function Repos() {
     return (
         <div>
             <Project />
-            <Footer />
         </div>
 
     )
