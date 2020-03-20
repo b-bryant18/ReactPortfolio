@@ -1,8 +1,7 @@
 import React from "react";
-import Footer from "../components/Footer";
 import Container from "../components/Container";
 import Row from "../components/Row";
-import { Jumbotron } from "reactstrap";
+import Icon from "../components/Icon";
 
 function Contact() {
     return (
@@ -18,6 +17,7 @@ function Contact() {
                 </Row>
                 <Row>
                     <h1>
+                        <Icon />
                     <a href="https://www.linkedin.com/in/bradley-bryant-194929148">LinkedIn</a>
                     </h1>
                     <br />
