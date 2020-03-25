@@ -1,10 +1,9 @@
 import React from "react";
-import Footer from "../components/Footer"
 import Project from "../components/Project";
 
 function Repos() {
     return (
-        <div>
+        <div style= {{textAlign: "center"}}>
             <Project />
         </div>
 
