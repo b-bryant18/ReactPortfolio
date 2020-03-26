@@ -11,22 +11,22 @@ function Contact() {
         <div>
             <Container>
                 <Row>
-                    <h2>
-                    <img id = "Location" alt="Location pin" src = {Pin} />
-                        Location: Austin, TX </h2>
+                   
+                        <img id="Location" alt="Location pin" src={Pin} />
+                        <h2> Location: Austin, TX </h2>
                     <br />
                 </Row>
                 <Row>
-                    <h2>
-                        <img className = "circle" alt = "Letter graphic" src ={Mail} />
-                        Email: bradleybryant86@gmail.com </h2>
+
+                    <img className="circle" alt="Letter graphic" src={Mail} />
+                    <h2 style={{ marginLeft: "10px" }}> bradleybryant86@gmail.com </h2>
                     <br />
                 </Row>
                 <Row>
-                    <h1>
-                     <img className="circle" alt = "LinkedIn Logo" src = {LinkedIn} />
-                        <a href="https://www.linkedin.com/in/bradley-bryant-194929148">LinkedIn</a>
-                    </h1>
+
+                    <img className="circle" alt="LinkedIn Logo" src={LinkedIn} />
+                    <h2 style={{ marginLeft: "10px" }}> <a href="https://www.linkedin.com/in/bradley-bryant-194929148">LinkedIn</a>
+                    </h2>
                     <br />
                 </Row>
             </Container>

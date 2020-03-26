@@ -7,6 +7,7 @@ function About() {
     return (
         <div>
             <Container>
+                {/* Change profile pic to UT pic */}
                 <Picture />
                 <Row>
                     <div>
@@ -19,7 +20,12 @@ function About() {
                         <p>The University of Texas at Austin: Full Stack Development Certificate</p>
                         <p>Texas A&M University 2018: Bachelor's of Science in University Studies Business and a minor in Economics</p>
                     </div>
-
+                </Row>
+                <Row>
+                    <div>
+                        <h2>Resume</h2>
+                        {/* Add image of resume */}
+                    </div>
                 </Row>
             </Container>
         </div>
