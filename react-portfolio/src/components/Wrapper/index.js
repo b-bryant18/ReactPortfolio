@@ -1,8 +1,11 @@
 import React from "react";
 import "./style.css";
+// import Red from "./red.jpg";
 
 function Wrapper(props) {
-    return <main className = "wrapper" {...props} />;
+    return <div >
+        <main className="wrapper" {...props} />
+        </div>
 }
 
 export default Wrapper;

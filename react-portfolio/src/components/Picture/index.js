@@ -4,8 +4,7 @@ import Bear from "./bear.jpg";
 function Picture () {
     return (
         <div>
-        <img src = {Bear} />
-        {/* <img src ={Icon} /> */}
+        <img src = {Bear} alt = "Myself on the USTS Golden Bear, 2015" />
         </div>
     )
 }
