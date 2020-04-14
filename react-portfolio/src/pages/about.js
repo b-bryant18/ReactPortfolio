@@ -2,12 +2,12 @@ import React from "react";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Picture from "../components/Picture";
-import Background from "./desert.jpeg";
+// import Background from "./desert.jpeg";
 
 function About() {
     return (
         <div>
-            <img src = {Background} />
+            {/* <img src = {Background} /> */}
             <Container>
                 {/* Change profile pic to UT pic */}
                 <Picture />
