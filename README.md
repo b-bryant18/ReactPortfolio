@@ -2,6 +2,10 @@
 
 This portfolio was made by me, Brad Bryant, using only React.js.
 
+##Screenshots
+![About](./src/images/rp.png);
+![Contact](./src/images/rp2.png);
+
 ## Installation
 
 ```bash
